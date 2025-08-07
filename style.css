@@ -132,7 +132,7 @@ body{
   align-items: center;
 }
 .header-content svg{
-  width: 25%;
+  max-width: 25%;
   display: block;
   margin-top: -7px;
   position: absolute;
@@ -303,7 +303,7 @@ body{
 .third-page{
   background-color: var(--dark-bg);
   color: white;
-  padding: 4rem 7rem;
+  padding: 4rem 3rem;
 }
 
 .third-page-content{
