@@ -712,15 +712,19 @@ body{
 .tandc{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-top: 2rem;
 }
 
 .tandc a{
   color: black;
-  font-size: 0.8em;
+  font-size: 65%;
   font-weight: 500;
   transition: color .3s;
+}
+
+.tandc p{
+  font-size: 65%;
 }
 
 .tandc a:hover{
